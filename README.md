@@ -2,21 +2,18 @@ Netflix Movie Data Analysis — README
 By: Mahima Nema
 
 1. Introduction Netflix Movie Data Analysis
-
 Have you ever scrolled through Netflix and wondered — what kind of movies really fill up the platform? Which genres dominate? What do audiences love? And what trends shape Netflix’s massive library?
 That’s exactly what this project sets out to uncover.
 
 2. Dataset Overview
-
 I worked with a dataset containing 9827 Netflix movie records with details such as:Title, Release Date, Genre,Popularity,VoteAverage,Vote Count. The dataset was clean, free of missing or duplicate values, though it required some organizing to extract meaningful insights.
 
 3.Data Cleaning & Preprocessing
-
 To make the dataset analysis-ready, I performed the following:
-1. Converted release dates to year only — to track trends over time.
-2. Dropped irrelevant columns like movie overviews, original language, and poster URLs.
-3. Categorized vote averages into four groups:Not Popular, Below Average, Average, Popular
-4. Split multiple genres into individual rows — so multi-genre movies could be accurately counted in each category.
+Converted release dates to year only — to track trends over time.
+Dropped irrelevant columns like movie overviews, original language, and poster URLs.
+Categorized vote averages into four groups:Not Popular, Below Average, Average, Popular
+Split multiple genres into individual rows — so multi-genre movies could be accurately counted in each category.
 This step was crucial to transform raw data into meaningful insights.
 
 4. Genre Distribution
