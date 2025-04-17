@@ -8,7 +8,7 @@ That’s exactly what this project sets out to uncover.
 2. Dataset Overview
 I worked with a dataset containing 9827 Netflix movie records with details such as:Title, Release Date, Genre,Popularity,VoteAverage,Vote Count. The dataset was clean, free of missing or duplicate values, though it required some organizing to extract meaningful insights.
 
-3.Data Cleaning & Preprocessing
+3. Data Cleaning & Preprocessing
 To make the dataset analysis-ready, I performed the following:
 Converted release dates to year only — to track trends over time.
 Dropped irrelevant columns like movie overviews, original language, and poster URLs.
